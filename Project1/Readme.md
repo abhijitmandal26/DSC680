@@ -41,7 +41,16 @@ The Movie dataset has the following features
  - vote_count - the count of votes recieved.
 
 ### <img src="https://user-images.githubusercontent.com/13950516/162673345-5ea37d71-b9e4-47b7-aa6e-c43921d7b2d0.png" width="40" height="40" />&nbsp; Approach
+<img width="810" alt="image" src="https://user-images.githubusercontent.com/13950516/162685118-89097c30-8405-4328-854f-1af6299c2cf5.png">
 
+<img width="810" alt="image" src="https://user-images.githubusercontent.com/13950516/162685240-817bad63-fae8-40a0-8b37-785b901dc717.png">
 
+<img width="839" alt="image" src="https://user-images.githubusercontent.com/13950516/162685335-6040e6d9-a3ff-488a-a040-92ef6cc82f33.png">
 
 ### <img src="https://user-images.githubusercontent.com/13950516/162673481-c1ce4edf-5240-43be-ae07-e7ef061be0c6.png" width="40" height="40" />&nbsp; Conclusion
+- The Recommendation system is a very powerful technology which helps people to find what they like. 
+- If we take Collaborative Filtering as an example, then we find it is most successful and powerful algorithm.
+- Hybrid movie recommendation systems can take advantage of content- based and collaborative filtering as the two approaches are proved to be the best approach. 
+- But each algorithms have its strength and weakness. Our proposed approach can handle quite a big amount of data effectively. 
+- In future, we will work on its weakness and on its user interface. 
+

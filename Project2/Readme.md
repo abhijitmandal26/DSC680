@@ -51,3 +51,27 @@ A tweet contains a lot of opinions about the data which are expressed in differe
 - **Remove all punctuations, symbols, numbers** 
 The second phase of the system will be to cleanse the data collected, this will involve removing any punctuations and making everything lower case. This will help in the next stage of the project especially in the “Bag of Words” approach. Removing lower case words will decrease the redundancy in the database that will be used to store the words.
 
+### Data Classification
+
+To reach the ultimate goal, there was a need to clean up the individual tweets. I used a concept known as "Tokenization" in NLP. It is a method of splitting a sentence into smaller units called "tokens" to remove unnecessary elements. Another technique worthy of mention is "Lemmatization". This is a process of returning words to their "base" form. A simple illustration is shown below.
+
+![image](https://user-images.githubusercontent.com/13950516/167274243-9a3d0644-9ea0-43ae-ade1-61b560f0e50d.png)
+
+
+Machine learning techniques require representing the key features of text or documents for processing. These key features are considered as feature vectors which are used for the classification task. Some examples feature that have been reported in literature are: 
+
+- **Words and Their Frequencies**:  Unigrams, bigrams and n-gram models with their frequency counts are considered as features. 
+
+- **Parts of Speech Tags**: Parts of speech like adjectives, adverbs and some groups of verbs and nouns are good indicators of subjectivity and sentiment. We can generate syntactic dependency patterns by parsing or dependency trees. 
+
+- **Opinion Words and Phrases**: Apart from specific words, some phrases and idioms which convey sentiments can be used as features. e.g. cost someone an arm and leg. 
+
+- **Position of Terms**: The position of a term within a text can affect how much the term makes difference in overall sentiment of the text. 
+
+- **Negation**: Negation is an important but difficult feature to interpret. The presence of a negation usually changes the polarity of the opinion. 
+- **Syntax**: Syntactic patterns like collocations are used as features to learn subjectivity patterns by many of the researchers. 
+This is expected to be the most difficult part of the project; it will entail looking at individual words or groups of words in a tweet and attempting to assign a sentiment to them. This is no easy task as it is very difficult for a computer to “understand” slang words and sarcasm. 
+“Bag of Words” Model The bag of words approach will involve building databases of positive, negative, and neutral words. Each tweet will be broken up into individual words and then compared to the words in the databases. When there is a match, a counter will be incremented or decremented by a fixed amount depending on a weighting assigned. When this process is complete the counter will be used to classify the sentiment for example if the words in the tweet are largely positive the counter should be high.
+
+To get the most common words used, I made use of the POS-tag (Parts of Speech tagging) module in the NLTK library. Using the WordCloud library, one can generate a Word Cloud based on word frequency and superimpose these words on any image. In this case, I used the Twitter logo and Matplotlib to display the image. The Word Cloud shows the words with higher frequency in bigger text size while the "not-so" common words are in smaller text sizes. 			
+

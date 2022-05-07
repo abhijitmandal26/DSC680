@@ -41,3 +41,13 @@ The dataset provided is the Sentiment140 Dataset which consists of 1,600,000 twe
 - **text** : It refers to the text of the tweet 
 
 ![image](https://user-images.githubusercontent.com/13950516/167274017-6ac43147-db31-4f6c-b35a-bd3b9995cbb8.png)
+
+
+### Data Cleansing
+A tweet contains a lot of opinions about the data which are expressed in different ways by different users. The twitter dataset used in this project work is already labeled into two classes viz. negative and positive polarity and thus the sentiment analysis of the data becomes easy to observe the effect of various features. The raw data having polarity is highly susceptible to inconsistency and redundancy. Preprocessing of tweet include following points,
+- **Remove all URLs (e.g. www.xyz.com), hash tags (e.g. #topic), targets (@username)** 
+- **Remove Stop words** 
+- **Replace Repeated Characters** 
+- **Remove all punctuations, symbols, numbers** 
+The second phase of the system will be to cleanse the data collected, this will involve removing any punctuations and making everything lower case. This will help in the next stage of the project especially in the “Bag of Words” approach. Removing lower case words will decrease the redundancy in the database that will be used to store the words.
+

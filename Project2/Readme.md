@@ -39,3 +39,5 @@ The dataset provided is the Sentiment140 Dataset which consists of 1,600,000 twe
 - **flag** : It refers to the query. If no such query exist’s then it is NO QUERY. 
 - **user** : It refers to the name of the user that tweeted 
 - **text** : It refers to the text of the tweet 
+
+![image](https://user-images.githubusercontent.com/13950516/167274017-6ac43147-db31-4f6c-b35a-bd3b9995cbb8.png)

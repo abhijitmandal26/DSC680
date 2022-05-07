@@ -75,3 +75,29 @@ This is expected to be the most difficult part of the project; it will entail lo
 
 To get the most common words used, I made use of the POS-tag (Parts of Speech tagging) module in the NLTK library. Using the WordCloud library, one can generate a Word Cloud based on word frequency and superimpose these words on any image. In this case, I used the Twitter logo and Matplotlib to display the image. The Word Cloud shows the words with higher frequency in bigger text size while the "not-so" common words are in smaller text sizes. 			
 
+
+![image](https://user-images.githubusercontent.com/13950516/167274294-432be8f1-72df-433b-8456-b994f0f0781b.png)
+
+
+### Data Analysis
+
+When the data is classified, there will have to be analysis performed on it. This may include simple percentages of customer satisfaction, or a more complex analysis could be performed such as comparing the customer sentiment on two similar products with the aim of finding a correlation between good sentiment and high sales of those products.
+
+#### Setting up the Classification Model
+
+After training the model we then apply the evaluation measures to check how the model is performing. Accordingly, we use the following evaluation parameters to check the performance of the models respectively :
+- **Accuracy Score**
+- **Confusion Matrix with Plot**
+- **ROC-AUC Curve**
+
+
+![image](https://user-images.githubusercontent.com/13950516/167274366-63d73cde-6fd4-4c5f-ba0d-d6fd8370bd7b.png)
+
+
+
+![image](https://user-images.githubusercontent.com/13950516/167274403-94211279-1daf-4646-a297-355a1e4edc49.png)
+
+### Conclusion
+Overall, we found that Logistic Regression is the best model for analyzing Sentiments on the dataset.
+Logistic Regression is following the principle of Occam’s Razor which defines that for a particular problem statement if the data has no assumption, then the simplest model works the best. Since our dataset does not have any assumptions and Logistic Regression is a simple model, therefore the concept holds true for the above-mentioned dataset.
+

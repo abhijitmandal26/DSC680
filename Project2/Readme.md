@@ -25,3 +25,17 @@ The words opinion, sentiment, view and belief are used interchangeably but there
 - **Sentiment** : opinion representing one’s feelings, Sentiment analysis and Natural Language processing are very important area nowadays. There is a massive amount of information being uploaded to the internet daily on social media websites and blogs that computers cannot understand. Traditionally it was not possible to process such large amounts of data, but with computer performance following the projections of Moore’s law and the introduction of distributed computing like Hadoop or Apache Spark, large data sets can now be processed with relative ease. With further research and investment into this area, computers will soon be able to gain an understanding from text which will greatly improve data analytics and search engines.
 
 A good use case is to identify a customer’s perception for a product, this is an extremely valuable data to some companies. From the knowledge gained from an analysis such as this a company can identify issues with their products, spot trends before their competitors, create improved communications with their target audience, and gain valuable insight into how effective their marketing campaigns were. Through this knowledge companies gain valuable feedback which allows them to further develop the next generation of their product.
+
+
+### Approach
+
+<img width="612" alt="image" src="https://user-images.githubusercontent.com/13950516/167273974-1dd1b7ff-a32f-443f-bdbe-850137869ccf.png">
+
+
+The dataset provided is the Sentiment140 Dataset which consists of 1,600,000 tweets that have been extracted using the Twitter API. The various columns present in the dataset are: 
+- **target** : the polarity of the tweet (positive or negative) 
+- **ids** : Unique id of the tweet 
+- **date** : the date of the tweet 
+- **flag** : It refers to the query. If no such query exist’s then it is NO QUERY. 
+- **user** : It refers to the name of the user that tweeted 
+- **text** : It refers to the text of the tweet 
